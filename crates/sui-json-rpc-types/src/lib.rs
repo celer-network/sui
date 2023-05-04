@@ -16,6 +16,7 @@ pub use sui_object::*;
 pub use sui_transaction::*;
 use sui_types::base_types::ObjectID;
 use sui_types::dynamic_field::DynamicFieldInfo;
+pub use sui_types::dynamic_field::DynamicFieldName;
 
 #[cfg(test)]
 #[path = "unit_tests/rpc_types_tests.rs"]
